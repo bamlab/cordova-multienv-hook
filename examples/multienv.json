@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "appId": "fr.bamlab.awesome.test",
+    "appName": "BAM Awesome App Test",
+    "replace": {
+        "app.js": {
+            "_TITLE_": "Cordova is awesome (TEST message)"
+        }
+    }
+  },
+  "prod": {
+    "appId": "fr.bamlab.awesome",
+    "appName": "BAM Awesome App",
+    "replace" {
+        "app.js": {
+            "_TITLE_": "Cordova is awesome"
+        }
+    }
+  }
+}
